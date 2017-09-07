@@ -1,0 +1,39 @@
+html{margin: 0; padding: 0;}
+body{margin: 0; padding: 0;}
+h1{float: left; margin: 0px;}
+
+.header{
+    height: 60px; 
+    line-height: 60px; 
+    padding: 20px; 
+    background-color: orangered;
+}
+ul{float: right; 
+    list-style-type: none; 
+    margin:0px; 
+    padding: 0px; 
+    }
+li{
+    float: left; 
+    margin-left: 20px;
+}
+
+li a{ text-decoration: none;}
+
+p{margin: 20px;}
+
+.content{
+    width: 70%;
+    float: left;
+    background-color: lightgray;
+    min-height: 500px;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+    background-color: darkgray;
+    color: white;
+    min-height: 500px;
+
+}
+
